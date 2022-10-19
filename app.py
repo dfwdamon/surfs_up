@@ -89,7 +89,9 @@ def stats(start=None, end=None):
         filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
     return jsonify(temps)
-# result is [null,null,null]
+# result is [null,null,null] unless,
+# query http://localhost:5000//api/v1.0/temp/2017-06-01/2017-06-30
+# to see output of the 3 calculated temps.
 
 
 
