@@ -9,11 +9,7 @@ The data analysis utilizes Python and Pandas functions and methods with SQLalche
 The first month of weather data is for June. This included temperature data on a daily basis among 1,700 different days and from several yearly periods. Looking over the summar statistics for June, it shows an average comfortable temperature of 75 degrees. 
 
 See the screenshot of the summary data below. 
-
-![June Data](/June.png)
- <p align="center">
-  <img width="200"src="June.png"alt="June Data">  
-  <p>
+<p>align="center">![June Data](/June.png)</p>
 
 ### December
 The second month was December temperature data. This included 1,500 temperature measurements for this month from several previous years. The average temperature for December was 71 degrees.  
